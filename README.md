@@ -1,6 +1,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
 
-# platformio-esp32-project-template
+# Platformio ESP32 Project Template
+
 This is a project template for ESP32 Arduino based projects to be used with PlatformIO
 
 ### Getting Started
