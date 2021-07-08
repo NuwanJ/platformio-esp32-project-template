@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.5]
+        python-version: [3.6]
 
     steps:
     - uses: actions/checkout@v2
@@ -26,6 +26,10 @@ jobs:
         pip install -U platformio
         platformio update
 
+    - name: Create sample config file
+      run: |
+        cp ./src.config.h ./src/config.sample.h
+        
     - name: Test with Platform IO
       run: |
         platformio test
