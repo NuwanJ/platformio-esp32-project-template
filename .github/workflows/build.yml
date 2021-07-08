@@ -28,7 +28,7 @@ jobs:
 
     - name: Create sample config file
       run: |
-        cp ./src/config.sample.h ./src/config.h 
+        cp ./src/config/config.sample.h ./src/config/config.h
         
     - name: Test with Platform IO
       run: |
