@@ -11,12 +11,18 @@ void setup() {
 
     // Enables Serial Communication with baudRate of 115200
     Serial.begin(115200);
+    Serial.println("PlatformIO ESP32 Boilerplate started...");
 
-
+    pinMode(PIN_LED_INBUILT, OUTPUT);
 }
 
 void loop() {
     // put your main code here, to run repeatedly:
+
+    digitalWrite(PIN_LED_INBUILT, HIGH);
+    delay(1000);
+    digitalWrite(PIN_LED_INBUILT, LOW);
+    delay(1000);
 
 }
 
