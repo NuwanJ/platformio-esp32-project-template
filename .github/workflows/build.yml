@@ -29,7 +29,7 @@ jobs:
     - name: Create sample config file
       run: |
         cp ./src/config/config.sample.h ./src/config/config.h
-        
-    - name: Test with Platform IO
+
+    - name: Compile with Platform IO
       run: |
-        platformio test
+        platformio run
