@@ -7,6 +7,14 @@ This is a project template for ESP32-S2 Arduino based projects to be used with P
 - [WEMOS S2 Documentation](https://www.wemos.cc/en/latest/s2/index.html)
 - [PlatformIO Configuration Guide](https://docs.platformio.org/en/latest/boards/espressif32/featheresp32-s2.html)
 
+### Specifications
+
+- 3.3v
+- 27 I/O Ports 
+- 240 MHz
+- 4M Flash
+- 2M PSRAM
+
 ### Upload Code
 
 - Make S2 boards into Device Firmware Upgrade (DFU) mode.
