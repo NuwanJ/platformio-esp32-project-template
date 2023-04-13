@@ -6,7 +6,8 @@
 // https://docs.platformio.org/en/latest/plus/unit-testing.html
 #ifndef UNIT_TEST
 
-void setup() {
+void setup()
+{
     // put your setup code here, to run once:
 
     // Enables Serial Communication with baudRate of 115200
@@ -16,14 +17,15 @@ void setup() {
     pinMode(PIN_LED_INBUILT, OUTPUT);
 }
 
-void loop() {
+void loop()
+{
     // put your main code here, to run repeatedly:
 
+    Serial.println("This is test");
     digitalWrite(PIN_LED_INBUILT, HIGH);
     delay(1000);
     digitalWrite(PIN_LED_INBUILT, LOW);
     delay(1000);
-
 }
 
 #endif
